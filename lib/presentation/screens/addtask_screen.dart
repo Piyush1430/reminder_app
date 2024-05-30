@@ -38,6 +38,11 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
   late int _selectedcolor;
 
   List<DropdownMenuItem<int>> menuItems = const [
+     DropdownMenuItem(
+        value: 0,
+        child: Text(
+          "5 Min Earlier",
+        )),
     DropdownMenuItem(
         value: 5,
         child: Text(
