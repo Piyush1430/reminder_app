@@ -1,0 +1,50 @@
+name: reminder_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animate_do: ^3.3.4
+  another_flushbar: ^1.10.28
+  awesome_dialog: ^3.2.1
+  bloc: ^8.0.2
+  cloud_firestore: ^4.17.5
+  connectivity_plus: ^6.0.3
+  date_picker_timeline: ^1.2.3
+  day_night_time_picker: ^1.0.5
+  equatable: ^2.0.3
+  firebase_auth: ^4.20.0
+  firebase_core: ^2.32.0
+  flutter_bloc: ^8.0.1
+  intl: ^0.18.1
+  shared_preferences: ^2.0.13
+  sizer: ^2.0.15
+  awesome_notifications: ^0.8.2
+  google_sign_in: ^6.2.1
+  device_preview: ^1.0.0
+  meta: ^1.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
