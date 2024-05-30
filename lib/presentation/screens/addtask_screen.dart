@@ -41,7 +41,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
      DropdownMenuItem(
         value: 0,
         child: Text(
-          "5 Min Earlier",
+          "None",
         )),
     DropdownMenuItem(
         value: 5,
@@ -79,7 +79,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
       hour: _starthour.hour + 1,
       minute: _starthour.minute,
     );
-    _selectedReminder = isEditMote ? widget.task!.reminder : 5;
+    _selectedReminder = isEditMote ? widget.task!.reminder : 0;
     _selectedcolor = isEditMote ? widget.task!.colorindex : 0;
   }
 
